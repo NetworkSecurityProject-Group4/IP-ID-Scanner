@@ -49,7 +49,7 @@ yvals = [constant, local_global, random_odd]
 
 colors = ['green', 'blue', 'red']
 plt.bar(xvals, yvals, color=colors)
-plt.title('IP-ID Behavior of 10,000 IP Scan', fontsize=14)
+plt.title('IP-ID Behavior of 1,000,000 IP Scan', fontsize=14)
 plt.xlabel('Sequences', fontsize=14)
 plt.ylabel('Number of IPs', fontsize=14)
 plt.grid(True)
